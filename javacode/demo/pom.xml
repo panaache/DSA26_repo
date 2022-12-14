@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>demo</groupId>
   <artifactId>demoapp</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.4.0-</version>
   <dependencies>
         <!-- https://mvnrepository.com/artifact/io.airlift/testing -->
 
@@ -14,4 +14,17 @@
         </dependency>
 
 </dependencies>
+
+<distributionManagement>
+          <repository>                          <!-- this is release version -->
+                  <id>weekend</id>
+                  <name>weekend-release</name>
+                  <url>http://35.171.45.181:8081/repository/weekend-release/</url>
+          </repository>
+          <snapshotRepository>                  <!-- this is snapshot version -->
+                  <id>weekend</id>
+                  <name>weekend-snapshot</name>
+                  <url>http://35.171.45.181:8081/repository/weekend-snapshot/</url>
+          </snapshotRepository>
+  </distributionManagement>
 </project>
