@@ -16,15 +16,15 @@
 </dependencies>
 
 <distributionManagement>
-          <repository>                          <!-- this is release version -->
+          <repository> 				<!-- this is release version -->
                   <id>weekend</id>
                   <name>weekend-release</name>
-                  <url>http://35.171.45.181:8081/repository/weekend-release/</url>
+                  <url>http://44.210.237.3:8081/repository/weekend-release/</url>
           </repository>
-          <snapshotRepository>                  <!-- this is snapshot version -->
+          <snapshotRepository>			<!-- this is snapshot version -->
                   <id>weekend</id>
                   <name>weekend-snapshot</name>
-                  <url>http://35.171.45.181:8081/repository/weekend-snapshot/</url>
+                  <url>http://44.210.237.3:8081/repository/weekend-snapshot/</url>
           </snapshotRepository>
   </distributionManagement>
 </project>
